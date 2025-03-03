@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    /* grid-template-rows: repeat(3, 100px); */
+    grid-gap: 10px;
+}
+
+.cell {
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
